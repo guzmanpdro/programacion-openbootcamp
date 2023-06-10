@@ -1,7 +1,7 @@
 /**
  * Main
  */
-public class Main {
+public class EjercicioTema3 {
   public static void main(String[] args) {
     suma(10, 30, 30);
 
@@ -11,6 +11,7 @@ public class Main {
   }
 
   public static int suma(int a, int b, int c) {
+    System.out.println(a + b + c);
     return a + b + c;
   }
 }
