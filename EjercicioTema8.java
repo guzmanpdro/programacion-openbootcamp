@@ -5,9 +5,9 @@ public class EjercicioTema8 {
     persona.setNombre("Pedro");
     persona.setTelefono(1234567);
 
-    Number edad = persona.getEdad();
+    int edad = persona.getEdad();
     String nombre = persona.getNombre();
-    Number telefono = persona.getTelefono();
+    int telefono = persona.getTelefono();
 
     System.out.println("Nombre: " + nombre);
     System.out.println("Edad: " + edad);
@@ -16,11 +16,11 @@ public class EjercicioTema8 {
 }
 
 class Persona {
-  private Number edad;
+  private int edad;
   private String nombre;
-  private Number telefono;
+  private int telefono;
 
-  public void setEdad(Number edad) {
+  public void setEdad(int edad) {
     this.edad = edad;
   }
 
@@ -28,11 +28,11 @@ class Persona {
     this.nombre = nombre;
   }
 
-  public void setTelefono(Number telefono) {
+  public void setTelefono(int telefono) {
     this.telefono = telefono;
   }
 
-  public Number getEdad() {
+  public int getEdad() {
     return this.edad;
   }
 
@@ -40,7 +40,7 @@ class Persona {
     return this.nombre;
   }
 
-  public Number getTelefono() {
+  public int getTelefono() {
     return this.telefono;
   }
 }
